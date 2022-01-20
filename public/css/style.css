@@ -1,0 +1,36 @@
+/* Logotivo */
+#nav{
+    animation: fade 1.5s;
+}
+
+/* Parallax para main */
+
+.parallax { 
+    background-image: url("https://www.tkelevator.com/media/home/ba_et/20160518_baet_elevator_rs157992_rs157992_a_05_hpr_image_w1335.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+/* KEYFRAMES ANIMACIONES */
+@keyframes fade {
+    0%{
+        top: -5.0px;
+        opacity: 0;
+        color: rgb(33, 121, 99);
+    }
+    20%{
+        top: -4.5px;
+        opacity: 0.0;  
+    }
+    100%{
+        top: 0.0px;
+        opacity: 1;
+    }
+    
+}
